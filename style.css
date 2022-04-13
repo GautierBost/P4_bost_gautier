@@ -6,7 +6,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.portfolio-thumb
 a,
 button {
     transition: all .3s ease-in-out;
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .tight-width-whitespace {
@@ -698,13 +698,28 @@ p {
     font-size: 16px;
     font-weight: 700;
 }
-
+image-de
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
 }
+.citation{
+    font-size: 20px;
+    margin: 0;
+    line-height: 2.2rem;
+}
+
+q {
+    font-weight: 700;
+    font-style: italic;
+}
 
 h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+h4 {
     font-size: 22px;
     line-height: 1.4em;
 }
@@ -726,7 +741,7 @@ h1 {
     color: #333333!important;
 }
 
-h4 {
+h5 {
     color: #333333!important;
 }
 
@@ -771,20 +786,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #c64306;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #c64306;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #e94f07!important;
     color: #FFFFFF!important;
 }
 
@@ -797,11 +812,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #c64306!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #e94f07!important;
 }
 
 .icon-dark-slate-blue {
@@ -822,7 +837,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
